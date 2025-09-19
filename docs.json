@@ -7,7 +7,7 @@
     "light": "#1A2B6B",
     "dark": "#DFE6FF"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/mcx_logo_white.svg",
   "navigation": {
     "tabs": [
       {
@@ -17,15 +17,14 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "installation"
             ]
           },
           {
-            "group": "Customization",
+            "group": "MCX Compare",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "mcx-compare/overview",
+              "mcx-compare/data-extensions"
             ]
           },
           {
@@ -89,8 +88,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/mcx-light.svg",
+    "dark": "/logo/mcx-dark.svg"
   },
   "navbar": {
     "links": [
@@ -101,7 +100,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Home",
       "href": "https://dashboard.mintlify.com"
     }
   },
